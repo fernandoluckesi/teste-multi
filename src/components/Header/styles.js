@@ -67,6 +67,7 @@ export const Links = styled.ul`
   @media (max-width: 1000px) {
     background-color: var(--background-light);
     bottom: 0;
+    border-top: 1px solid var(--gray);
     border-radius: 30px 30px 0 0;
     flex-direction: column;
     gap: 32px;
@@ -132,5 +133,3 @@ export const MenuBtnMobile = styled.div`
     }
   }
 `;
-
-export const Logo = styled.img``;

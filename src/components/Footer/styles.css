@@ -1,0 +1,31 @@
+.main-container {
+  background-color: var(--background-light);
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.signature>span {
+  font-weight: var(--fontWeightSemiBold);
+}
+
+.signature>span:nth-child(1) {
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-container {
+    padding: 2rem 1rem;
+  }
+
+  .icons>img {
+    width: 2.5rem;
+  }
+}

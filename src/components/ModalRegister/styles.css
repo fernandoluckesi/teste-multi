@@ -1,6 +1,4 @@
-import styled from 'styled-components';
-
-export const MainContainer = styled.div`
+.main-container {
   align-items: center;
   background-color: rgba(32, 35, 42, 0.5);
   display: flex;
@@ -10,27 +8,27 @@ export const MainContainer = styled.div`
   top: 0;
   width: 100%;
   z-index: 2;
-`;
+}
 
-export const ModalContainer = styled.div`
+.modal-container {
   position: relative;
   width: fit-content;
-`;
+}
 
-export const CloseModalBtn = styled.img`
+.close-modal-btn {
   background-color: var(--background-light);
   border-radius: 50%;
   padding: 0.5rem;
   position: absolute;
   right: 12px;
   top: 58px;
+}
 
-  &:hover {
-    cursor: pointer;
-  }
-`;
+.close-modal-btn:hover {
+  cursor: pointer;
+}
 
-export const FormRegister = styled.form`
+.form-register {
   align-items: flex-end;
   background-image: linear-gradient(#01acda, #46c0e5);
   display: flex;
@@ -40,40 +38,39 @@ export const FormRegister = styled.form`
   position: absolute;
   top: 343px;
   width: 303px;
-`;
+}
 
-export const InputContainer = styled.div`
+.input-container {
   display: flex;
   flex-direction: column;
   position: relative;
   width: 100%;
-`;
+}
 
-export const InputData = styled.input`
+.input-data {
   border: none;
   outline: none;
   padding: 0.5rem;
-`;
+}
 
-export const InputErrorMsg = styled.small`
+.input-error-msg {
   bottom: -16px;
   color: var(--red);
   display: block;
   position: absolute;
-`;
+}
 
-export const RegisterBtn = styled.button`
+.register-btn {
   background-color: var(--green);
   border: none;
   color: var(--text-light);
   font-size: 16px;
   padding: 8px;
-
   transition: filter 0.5s;
   width: 170px;
+}
 
-  &:hover {
-    cursor: pointer;
-    filter: brightness(0.9);
-  }
-`;
+.register-btn:hover {
+  cursor: pointer;
+  filter: brightness(0.9);
+}

@@ -65,6 +65,15 @@
   color: var(--blue);
 }
 
+.close-btn {
+  display: none;
+}
+
+.menu-btn-mobile {
+  display: none;
+  width: 32px;
+}
+
 @media screen and (max-width: 1000px) {
   .links {
     background-color: var(--background-light);
@@ -116,13 +125,4 @@
   .menu-btn-mobile:hover {
     cursor: pointer;
   }
-}
-
-.close-btn {
-  display: none;
-}
-
-.menu-btn-mobile {
-  display: none;
-  width: 32px;
 }

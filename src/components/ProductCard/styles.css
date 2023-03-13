@@ -1,0 +1,56 @@
+.main-container {
+  align-items: center;
+  border: 1px solid var(--gray);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+  width: 210px;
+}
+
+.main-container:hover {
+  border-color: var(--shape);
+  cursor: pointer;
+}
+
+.product-image {
+  width: 148px;
+
+}
+
+.title {
+  color: var(--text-gray);
+  font-size: 0.8rem;
+  font-weight: var(--fontWeightBold);
+  margin: 5px 0;
+  text-align: center;
+}
+
+.price {
+  color: var(--blue);
+  font-size: 1.2rem;
+  line-height: 120%;
+}
+
+.installment-info {
+  color: var(--text-gray);
+  font-size: 0.8rem;
+  line-height: 0.9rem;
+  margin: 5px 0;
+}
+
+.add-to-cart-btn {
+  background-color: transparent;
+  border: 1px solid var(--blue);
+  border-radius: 2rem;
+  color: var(--blue);
+  font-weight: var(--fontWeightBold);
+  padding: 0.5rem 2rem;
+}
+
+.add-to-cart-btn:hover {
+  background-color: var(--blue);
+  color: var(--text-light);
+  cursor: pointer;
+}
